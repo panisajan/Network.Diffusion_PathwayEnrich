@@ -1,5 +1,4 @@
-Network diffusion and Neighborhood method for pathway enrichment
-analysis
+Network diffusion for pathway enrichment analysis
 ================
 PJ
 2025-06-12
@@ -87,7 +86,7 @@ seed_genes <- c("TP53", "BRCA1", "EGFR", "AKT1", "PIK3CA",
                 "MTOR", "PTEN", "CDK2", "KRAS", "BRAF")
 ```
 
-#### **Neighborhood expansion**
+#### [Optional] **Neighborhood expansion**
 
 Neighborhood method considers seed genes and seed genes’ neighbors.
 
