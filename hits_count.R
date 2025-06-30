@@ -11,7 +11,7 @@ library(openxlsx)
 go_bp <- AnnotationDbi::select(org.Hs.eg.db, keys = keys(org.Hs.eg.db, keytype = "GO"), columns = c("GO", "SYMBOL", "ONTOLOGY"), keytype = "GO")
 
 ErbB = c("GO:0038127", "GO:0007173", "GO:0038134", "GO:0038128", "GO:0038129", "GO:0038130",
-         "GO:1901185", "GO:1901186", "GO:1901184")#, "GO:0038133")
+         "GO:1901185", "GO:1901186", "GO:1901184")
 go_bp_ErbB <- go_bp %>%
   filter(GO %in% ErbB & ONTOLOGY == "BP") %>%  # Filter for Biological Process (BP)
   dplyr::select(GO, SYMBOL)
