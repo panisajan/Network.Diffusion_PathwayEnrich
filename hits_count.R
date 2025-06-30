@@ -23,7 +23,7 @@ go_bp_GSK3 <- go_bp %>%
   dplyr::select(GO, SYMBOL)
 gene_GSK3_go = unique(go_bp_GSK3$SYMBOL[go_bp_GSK3$SYMBOL %in% V(g)$name]) ## 194 genes
 
-p53 = c("GO:0072332", "GO:0042771", "GO:1902253")#,"GO:0006915")
+p53 = c("GO:0072332", "GO:0042771", "GO:1902253")
 go_bp_p53 <- go_bp %>%
   filter(GO %in% p53 & ONTOLOGY == "BP") %>%  # Filter for Biological Process (BP)
   dplyr::select(GO, SYMBOL)
