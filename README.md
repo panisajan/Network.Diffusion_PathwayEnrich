@@ -1,7 +1,5 @@
 Network diffusion for pathway enrichment analysis
 ================
-PJ
-2025-06-12
 
 ## 1. PPI network construction from STRINGdb
 
