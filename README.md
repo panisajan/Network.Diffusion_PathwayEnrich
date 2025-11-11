@@ -1,6 +1,9 @@
 Network diffusion for pathway enrichment analysis
 ================
 
+Normalized Laplacian Diffusion for Robust Cancer Pathway Extension and Critical Gene Identification from Limited Data
+https://www.mdpi.com/2079-3197/13/11/266
+
 ## 1. PPI network construction from STRINGdb
 
 ##### Loading Required Libraries
